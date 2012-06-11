@@ -90,7 +90,7 @@ public class TWCrap_Smithing extends ActiveScript {
 		public void run() {
 			if (!Bank.isOpen()) {
 				Bank.open();
-				Time.sleep(1000, 3000);
+				Time.sleep(500, 3000);
 			}
 			if (Bank.isOpen()) {
 				if (Inventory.getCount() == 0) {
